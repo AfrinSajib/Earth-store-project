@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-image: url(../images/Banner.jpg);
+min-height: 100vh;
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.header_wrapper{
+
+width: 85%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 30px 0;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+width: 100%;
+}
+.menu{
+
+width: 50%;
+}
+.menu ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+}
+.menu ul li{
+
+}
+.menu ul li a{
+
+margin-right: 40px;
+
+text-decoration: none;
+
+color: black;
+
+font-size: 20px;
+}
+.middletext{
+
+text-align: center;
+
+font-size: 45px;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+margin-top: 50px;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.middletext h1{color: darkgreen;}
+.middletext h2{
+
+font-size: 40px;
+
+color: darkolivegreen;
+
+font-family: 'Source Code Pro', monospace;
+}
+.middletext button{
+
+padding: 15px 40px;
+
+font-size: 15px;
+
+margin-top: 45px;
+
+background: lightseagreen;
+
+border: 1px solid darkseagreen;
+
+border-radius: 10px;
+}
+.middletext button:hover{
+    background-color: yellowgreen;
+}
+.feature{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 80px 0 80px;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.left_section{
+
+width: 30%;
+}
+.left_section h6{
+    
+font-size: 17px;
+    
+color: gray;
+    
+padding: 10px 0;
+}
+.left_section h4{
+    
+font-size: 20px;
+}
+.left_section p{
+    
+padding: 10px 0;
+}
+.left_section img{
+    
+width: 100%;
+}
+.middle_section{
+
+width: 30%;
+}
+.middle_section h6{
+    
+color: gray;
+    
+font-size: 17px;
+    
+padding: 10px 0;
+}
+.middle_section h4{
+    
+font-size: 20px;
+}
+.middle_section p{
+    
+padding: 10px 0;
+}
+.middle_section img{
+    
+width: 100%;
+}
+.right_section{
+
+width: 30%;
+}
+.right_section h6{
+    
+color: gray;
+    
+font-size: 17px;
+    
+padding: 10px 0;
+}
+.right_section h4{
+    
+font-size: 20px;
+}
+.right_section p{
+    
+padding: 10px 0;
+}
+.right_section img{
+    
+width: 100%;
+}
+
+.faka_content{
+
+width: 90%;
+
+margin: auto;
+}
+.gap{
+
+display: block;
+
+height: 1px;
+
+background: navajowhite;
+}
+.gap span{
+    
+}
+.third{
+
+width: 85%;
+
+padding: 80px 0 60px;
+
+margin: auto;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.content_text{
+
+}
+.content_text h2{
+    
+font-size: 30px;
+    
+padding-bottom: 30px;
+}
+.main_content{
+
+display: flex;
+
+justify-content: space-between;
+
+font-family: 'Source Code Pro', monospace;
+}
+.icons1{
+
+width: 30%;
+}
+.icolog1{
+
+font-size: 45px;
+
+color: darkgreen;
+}
+.icons1 p{
+
+font-size: 17px;
+
+text-align: justify;
+}
+.icons1 img{
+    
+padding: 20px 0;
+}
+.icons1 h6{
+    
+font-size: 13px;
+}
+.icons2{
+
+width: 30%;
+}
+.icolog2{
+
+font-size: 45px;
+
+color: darkgreen;
+}
+.icons2 p{
+
+font-size: 17px;
+
+text-align: justify;
+}
+.icons2 img{
+    
+padding: 20px 0;
+}.icons2 h6{
+    
+font-size: 13px;
+}
+.icons3{
+
+width: 32%;
+}
+.icolog3{
+
+font-size: 45px;
+
+color: darkgreen;
+}
+.icons3 p{
+
+font-size: 17px;
+
+text-align: justify;
+}
+.icons3 img{
+
+padding: 20px 0;
+}
+.icons3 h6{
+
+font-size: 13px;
+}
+.lastimg{
+
+position: relative;
+
+margin-top: 20px;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.limg{
+}
+.limg img{
+    
+width: 100%;
+}
+.Postcard{
+
+position: absolute;
+
+top: 30%;
+
+left: 50%;
+
+transform: translate(-50%);
+
+text-align: center;
+}
+.Postcard h1{
+    
+font-size: 46px;
+    
+font-family: 'Source Code Pro', monospace;
+}
+.Postcard p{
+    
+font-size: 19px;
+    
+padding-top: 15px;
+}
+.Postcard button{
+    
+padding: 16px 30px;
+    
+margin-top: 49px;
+    
+border: 1px solid yellowgreen;
+    
+border-radius: 11px;
+    
+color: white;
+    
+background: green;
+    
+font-size: 18px;
+    
+font-family: 'Source Code Pro', monospace;
+}
+.Postcard button:hover{
+    background-color: chocolate;
+}
+.elementor{
+
+display: flex;
+
+width: 80%;
+
+margin: auto;
+
+padding: 70px;
+
+justify-content: space-between;
+}
+.first{
+
+width: 30%;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.first h6{
+    
+font-size: 20px;
+    
+padding: 10px 0;
+    
+color: gray;
+    
+font-family: 'Maven Pro', sans-serif;
+}
+.first p{
+    
+font-size: 16px;
+}
+.final1{
+
+font-size: 25px;
+
+color: green;
+}
+.Second{
+
+width: 30%;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.Second h6{
+    
+font-size: 20px;
+    
+padding: 10px 0;
+    
+color: gray;
+}
+.Second p{
+    
+font-size: 16px;
+}
+.final2{
+
+font-size: 25px;
+
+color: green;
+}
+.Third{
+
+width: 30%;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.Third h6{
+    
+font-size: 20px;
+    
+color: gray;
+    
+padding: 10px 0;
+}
+.Third p{
+    
+font-size: 16px;
+}
+.final3{
+    
+font-size: 25px;
+    
+color: green;
+}
+footer{
+
+width: 100%;
+
+background: ghostwhite;
+
+padding: 25px 0;
+}
+.footer_wrapper{
+    
+width: 90%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+align-items: center;
+    
+font-family: 'Maven Pro', sans-serif;
+}
+.latopic{
+
+width: 35%;
+}
+.latopic p{
+
+font-size: 16px;
+
+font-family: 'Maven Pro', sans-serif;
+}
+.lalogo{
+
+width: 35%;
+}
+.lalogo img{
+
+width: 40%;
+}
+.follow{
+}
+.folcon{width: 35%;}
+.folcon ul{
+
+display: flex;
+
+list-style: none;
+}
+.folcon ul li{
+
+}
+.folcon ul li a{text-decoration: none;margin-right: 30px;color: black;}
